@@ -27,5 +27,5 @@ serde_json = "1.0.99"
 [features]
 default = []
 #accelerate = ["dep:accelerate-src", "candle/accelerate", "candle-nn/accelerate", "candle-transformers/accelerate"]
-#cuda = ["candle-core/cuda", "candle-nn/cuda", "candle-transformers/cuda"]
+cuda = ["candle-core/cuda", "candle-nn/cuda", "candle-transformers/cuda"]
 #cudnn = ["candle-core/cudnn"] 

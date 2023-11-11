@@ -60,7 +60,7 @@ echo $PATH
 For Ubuntu: sudo apt install libnccl2=2.19.3-1+cuda12.3 libnccl-dev=2.19.3-1+cuda12.3
 For RHEL/Centos: sudo yum install libnccl-2.19.3-1+cuda12.3 libnccl-devel-2.19.3-1+cuda12.3 libnccl-static-2.19.3-1+cuda12.3
 
-git clone https://github.com/horowitzathome/llama-multiprocess.git
-cd llama-multiprocess
+git clone https://github.com/horowitzathome/llama.git
+cd llama
 
 cargo run --features cuda --release -- --prompt 'Tell me 3 presidents of the USA' --sample-len 150  
